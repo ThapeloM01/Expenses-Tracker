@@ -1,0 +1,70 @@
+
+body{
+      background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+       padding: 80px 20px;
+}
+
+nav a:hover, nav li.active-page a {
+ color:#708098
+}
+
+.login{
+  padding: 80px 20px;  
+}
+section{
+    text-align: center;
+}
+
+footer{
+    margin: 30px;
+    padding: 20px;
+    background-color: #708098;
+}
+.loginBody{
+    background-color: #eeeeee;
+   padding: 80px 20px;
+}
+.loginButton{
+    padding: 0 10px;
+}
+.logIn{
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 8px;
+    box-shadow: none;
+    border-color: #dbd8e3;
+    background-color: #dbd8e3;
+    
+}
+
+a:hover {
+    background-color:  #c4bbf0 ;
+    transition: ease-in-out;
+}
+.registerButton{
+    padding: 10px 50px;
+}
+.registerButton:hover{
+    transition: ease-in-out;
+    background-color: #c4bbf0;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 42px;
+    }
+    h3, h4, h5 {
+        font-size: 25px;
+    }
+
+    
+    body {
+        text-align: center;
+        padding: 0;
+    }
+   
+}
